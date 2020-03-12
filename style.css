@@ -1,0 +1,78 @@
+
+
+
+
+.keyLine {  
+  display: flex;
+
+  justify-content: start;
+  flex-direction: row;
+}
+
+
+
+.key {
+  font-size: 1rem;
+  background-color: rgb(106, 128, 158);
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 2px;
+  padding: 0.1rem;
+  height: 50px;
+}
+
+
+
+
+.small {
+  width: 50px;
+}
+.medium {
+  width: 50px;
+}
+.medBig {
+  width: 100px;
+}
+
+.shift {
+  width: 140px;
+}
+
+.whiteKey{
+  height: 50px;
+  width: 50px;
+  background-color: rgb(226, 224, 224);
+  margin: 4px;
+  padding: 0.1rem;
+}
+
+
+
+
+
+.keyPressed {
+  background-color: rgb(41, 122, 52);
+}
+
+.keyPressing {
+  background-color: rgb(36, 221, 61);
+}
+
+
+
+.keyboard {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+
+.verticalSeparator{
+  margin: 0.4%;
+}
+.horizontalSeparator{
+  margin: 5px;
+}
+
